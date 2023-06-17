@@ -11846,6 +11846,27 @@ fieldset:disabled .btn {
 
 /* QUADRADO */
 
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+}
+
+.quadrado2 {
+  width: 200px;
+  height: 320px;
+  border-radius: 10%;
+  background-color: rgb(209, 209, 207);
+}
+
+.quadrado2:first-child {
+  margin-right: 80px; /* Espaço entre os quadrados */
+}
+
+.quadrado2:last-child {
+  margin-left: 80px; /* Espaço entre os quadrados */
+}
 
 
 /*     <!-- RODA PEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE -->  */
