@@ -1,0 +1,134 @@
+body {
+  background-color: #D1D1CF; /* FUNDO */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90vh;
+  position: relative; 
+  font-family:Verdana, Tahoma, sans-serif;
+}
+
+.login-form {
+  background-color: #b5b4b5;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.75); /* SOMBRA LOGIN */
+  width: 300px;
+  margin-top: 20px;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #3c3c3c;
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.container h2 {
+  margin-top: 130px;
+  color: #ffffff; 
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+  width: 95%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0410f8;
+  border: none;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+  border-radius: 5px; /* Adiciona borda arredondada */
+  width: 260px;
+}
+
+.button:hover {
+  background-color: #1d0287;
+  color: black;
+  border: 1px solid #999;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+}
+
+.options {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.options a {
+  color: #005dc1; /* cor letra */
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+
+.options a:last-child {
+  margin-right: 0; /* Adicionado */
+}
+
+.options a:hover {
+  text-decoration: underline;
+  color: #002144;
+}
+
+.container img {
+  position: absolute;
+  top: 110px; /* Ajuste a distância do topo conforme necessário */
+  width: 100px; /* Ajuste a largura conforme necessário */
+}
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fadeIn {
+  opacity: 0;
+  -webkit-animation: fadeIn ease-in 1;
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  animation-duration: 2s;
+}
