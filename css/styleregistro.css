@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #484848;
+  }
+  
+  .container {
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* Adicione essa linha para o fundo branco */
+  }
+  
+  
+  .logo {
+    margin-left: 32%;
+  }
+  
+  .logo img {
+    width: 150px;
+    height: auto;
+  }
+  
+  .container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="password"] {
+    width: 98%;
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+  }
+  
+  
+  .form-group input[type="date"] {
+    width: 29%;
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  .form-group .whatsapp-label {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .whatsapp-label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .button-group button {
+    width: 48%;
+    padding: 10px 30px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .button-back {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .button-submit {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .button-group button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  
+  

@@ -110,11 +110,18 @@ body {
   color: #002144;
 }
 
-.container img {
-  position: absolute;
-  top: 110px; /* Ajuste a distância do topo conforme necessário */
-  width: 100px; /* Ajuste a largura conforme necessário */
+.logo-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
 }
+
+.logo-img {
+  margin-bottom: -100px;
+  height: 100px;
+}
+
 
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
