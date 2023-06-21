@@ -7,8 +7,8 @@
 [data-bs-theme="light"] {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
-  --bs-purple: #6f42c1;
-  --bs-pink: #d63384;
+  --bs-purple: #6f42c1;F
+  --bs-pink: #d63384;f
   --bs-red: #dc3545;
   --bs-orange: #fd7e14;
   --bs-yellow: #ffc107;
@@ -11842,13 +11842,16 @@ fieldset:disabled .btn {
   justify-content: center;
   align-items: center;
   height: 25vh;
-}
+  
+  
 
+}
 .quadrado2 {
   width: 200px;
   height: 320px;
   border-radius: 10%;
-  background-color: rgb(209, 209, 207);
+  background-color: #d1d1cf;
+
 }
 
 .quadrado2:first-child {
