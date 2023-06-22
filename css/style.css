@@ -193,7 +193,6 @@
   }
 }
 body {
-  margin: 0;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
@@ -204,6 +203,7 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
 }
+
 hr {
   margin: 1rem 0;
   color: inherit;
@@ -4246,10 +4246,10 @@ fieldset:disabled .btn {
   --bs-navbar-brand-color: #fff;
   --bs-navbar-brand-hover-color: #fff;
   --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.1);
-  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%281, 1, 1, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 [data-bs-theme="dark"] .navbar-toggler-icon {
-  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%281, 1, 1, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 .card {
   --bs-card-spacer-y: 1rem;
@@ -7045,7 +7045,7 @@ fieldset:disabled .btn {
   flex-shrink: 0;
   width: 1em;
   height: 1em;
-  fill: currentcolor;
+  fill: #000;
   transition: 0.2s ease-in-out transform;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -7096,7 +7096,9 @@ fieldset:disabled .btn {
 
 .marcatitulo {
     margin: 0;
-    color:#087990;
+    font-size: 25px;
+    font-family: 'Keep Calm', sans-serif;
+    color:#000000;
   }
   
 
@@ -11862,13 +11864,6 @@ fieldset:disabled .btn {
   margin-left: 80px; /* Espaço entre os quadrados */
 }
 
-
-/*     <!-- RODA PEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE -->  */
-
-.container3{
-  margin-top: 50px;
-}
-
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -11900,7 +11895,7 @@ fieldset:disabled .btn {
 
 .bi {
   vertical-align: -.125em;
-  fill: currentColor;
+  fill: #000;
 }
 
 .nav-scroller {
@@ -11942,5 +11937,104 @@ fieldset:disabled .btn {
 }
 
 
-/*     <!-- RODA PEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE -->  */
+.navbar {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
 
+.navbar-logo {
+  font-size: 20px;
+}
+
+
+.container-login{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.left-side {
+  margin-left: -8px;
+}
+
+.login-box {
+  margin-right: 8%;
+  margin-left: 5%;
+  width: 400px;
+  padding: 40px;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.login-box form {
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.remember-forgot a {
+  text-decoration: none;
+}
+
+.forgot-password {
+  font-size: 14px;
+}
+
+.recover-password {
+  margin-top: 20px;
+}
+
+.login-options {
+  margin-top: 20px;
+}
+
+.login-options p {
+  margin-bottom: 10px;
+}
+
+.social-login button {
+  margin-right: 10px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: #4285F4;
+  color: #fff;
+}
+
+.container-footer {
+  margin-top: -4px;
+  width: 100%;
+  background-color: #7a7a7a;
+  padding: 20px;
+}
+
+.icon-face {
+  border-radius: 15%;
+}
