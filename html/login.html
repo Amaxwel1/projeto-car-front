@@ -1,37 +1,52 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/loginstyles.css">
-  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="../css/loginstyles.css">
 </head>
 <body>
-  <div class="container fadeIn">
-    <a href="../html/index.html" class="logo-link">
-      <img src="../imagem/logotemp.png" alt="Logo da Empresa" class="logo-img">
-    </a>        
-    <h2>MOZZAFIRO</h2>
-    <form class="login-form">
-      <div class="form-group">
-        <label for="username">Usuário</label>
-        <input type="text" id="username" name="username" placeholder="Digite seu usuário">
-      </div>
-      <div class="form-group">
-        <label for="password">Senha</label>
-        <input type="password" id="password" name="password" placeholder="Digite sua senha">
-      </div>
-      <div class="form-group remember-me">
-        <input type="checkbox" id="remember" name="remember">
-        <label for="remember">Relembrar</label>
-      </div>
-      <a href="../html/index.html" class="button">ENTRAR</a>  
-    <div class="options">
-      <a href="#">Recuperar Senha</a>
-      <a href="registro.html">Cadastrar-se</a>
+  <nav class="navbar">
+    <div class="navbar-logo">
+      <h1>LOJA</h1>
     </div>
-    </form>
+  </nav>
+  
+  <div class="container">
+    <div class="left-side">
+      <img src="caminho_para_a_foto.jpg" alt="Imagem" />
+    </div>
+    <div class="login-box">
+      <form>
+        <div class="input-group">
+          <label for="username">Usuário:</label>
+          <input type="text" id="username" name="username" required>
+        </div>
+        <div class="input-group">
+          <label for="password">Senha:</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <div class="remember-forgot">
+          <label for="remember">
+            <input type="checkbox" id="remember" name="remember"> Relembrar senha
+          </label>
+          <a href="#" class="forgot-password">Esqueci a senha</a>
+        </div>
+        <div class="input-group">
+          <input type="submit" value="Login">
+        </div>
+      </form>
+      <div class="recover-password">
+        <a href="#">Recuperar senha</a>
+      </div>
+      <div class="login-options">
+        <p>Ou faça login com:</p>
+        <div class="social-login">
+          <button class="google-login">Gmail</button>
+          <button class="outlook-login">Outlook</button>
+        </div>
+      </div>
+    </div>
   </div>
+  
+  <footer class="footer">Roda pé em branco</footer>
 </body>
 </html>
