@@ -1,103 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #484848;
-  }
-  
-  .container {
-    position: relative;
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    background-color: #fff; /* Adicione essa linha para o fundo branco */
-  }
-  
-  
-  .logo {
-    margin-left: 32%;
-  }
-  
-  .logo img {
-    width: 150px;
-    height: auto;
-  }
-  
-  .container h2 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .form-group {
-    margin-bottom: 20px;
-  }
-  
-  .form-group label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-  }
-  
-  .form-group input[type="text"],
-  .form-group input[type="email"],
-  .form-group input[type="password"] {
-    width: 98%;
-    padding: 4px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    background-color: #fff;
-  }
-  
+  /* overflow: hidden; <- Remova esta linha */
+}
 
-  .form-group input[type="date"] {
-    width: 29%;
-    padding: 4px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-  }
+.navbar {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
 
-  .form-group .whatsapp-label {
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
-    font-size: 14px;
-  }
-  
-  .whatsapp-label {
-    display: block;
-    margin-bottom: 10px;
-  }
+.navbar-logo {
+  font-size: 20px;
+}
 
-  .button-group {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 20px;
-  }
-  
-  .button-group button {
-    width: 48%;
-    padding: 10px 30px;
-    font-weight: bold;
-    border: none;
-    border-radius: 5px;
-  }
-  
-  .button-back {
-    background-color: #007bff;
-    color: #fff;
-  }
-  
-  .button-submit {
-    background-color: #007bff;
-    color: #fff;
-  }
-  
-  .button-group button:hover {
-    background-color: #0056b3;
-  }
-  
-  
-  
-  
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 70px);
+  margin-bottom: 40px; /* Ajusta o espaço entre o campo de cadastro e o rodapé */
+}
+
+.registration-box {
+  width: 400px;
+  padding: 40px;
+  background-color: #f2f2f2;
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.registration-box h2 {
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.registration-box p {
+  margin-top: 20px;
+}
+
+.registration-box a {
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #4d4d4d;
+  text-align: center;
+  padding: 10px;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+}
