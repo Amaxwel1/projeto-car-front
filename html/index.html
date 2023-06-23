@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <link href="https://fonts.cdnfonts.com/css/keep-calm" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/tabarra" rel="stylesheet">
     <script src="script.js"></script>
     <link rel="stylesheet" href="../css/style.css">
     <title>Home</title>
@@ -35,61 +36,8 @@
           <ul class="navbar-nav">
             <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
-            <li class="nav-item"><a class="nav-link" href="#popup">Preços</a></li>
+            <li class="nav-item"><a class="nav-link" href="#planos">Planos</a></li>
           </ul>
-        </div>
-      </div>
-
-      <a href="#popup">Abrir Janela</a>
-
-      <div id="popup" class="popup">
-        <div class="popup-content">
-          <a href="#" class="close">&times;</a>
-          <h2>Tabela de Preços</h2>
-          <table>
-            <tr>
-              <th>ITEM</th>
-              <th class="center">TAMANHO</th>
-              <th class="center">COR</th>
-              <th>PREÇO</th>
-            </tr>
-            <tr>
-              <td>Casaco</td>
-              <td class="center">M</td>
-              <td class="center">Preto</td>
-              <td>R$ 89,90</td>
-            </tr>
-            <tr>
-              <td>Camisa</td>
-              <td class="center">G</td>
-              <td class="center">Azul</td>
-              <td>R$ 49,90</td>
-            </tr>
-            <tr>
-              <td>Calça</td>
-              <td class="center">P</td>
-              <td class="center">Bege</td>
-              <td>R$ 69,90</td>
-            </tr>
-            <tr>
-              <td>Vestido</td>
-              <td class="center">M</td>
-              <td class="center">Verde</td>
-              <td>R$ 79,90</td>
-            </tr>
-            <tr>
-              <td>Sapato</td>
-              <td class="center">38</td>
-              <td class="center">Marrom</td>
-              <td>R$ 99,90</td>
-            </tr>
-            <tr>
-              <td>Bolsa</td>
-              <td class="center">-</td>
-              <td class="center">Vermelha</td>
-              <td>R$ 59,90</td>
-            </tr>
-          </table>
         </div>
       </div>
 
@@ -125,55 +73,96 @@
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+          <span id="sobre" class="visually-hidden">Next</span>
         </button>
       </div>
       </div>
   
-      <section id="sobre">
+      <section id="">
+        <p class="como-funciona">Como funciona</p>
       <div class="container">
+
         <div class="ball-container">
           <div class="ball ball1"></div>
           <div class="small-ball">
             <div class="number">1</div>
           </div>
-          <div class="caption">v4i t0m4r N0 c#1</div>
+          <div class="caption">Criar a sua conta</div>
         </div>
         <div class="ball-container">
           <div class="ball ball2"></div>
           <div class="small-ball">
             <div class="number">2</div>
           </div>
-          <div class="caption">v4i t0m4r N0 c#2</div>
+          <div class="caption">Preencha o formulário</div>
         </div>
         <div class="ball-container">
           <div class="ball ball3"></div>
           <div class="small-ball">
             <div class="number">3</div>
           </div>
-          <div class="caption">v4i t0m4r N0 c#3</div>
+          <div class="caption">Escolha o seu plano</div>
         </div>
         <div class="ball-container">
           <div class="ball ball4"></div>
           <div class="small-ball">
             <div class="number">4</div>
           </div>
-          <div class="caption">v4i t0m4r N0 c#4</div>
+          <div class="caption">Receba o seu MozzaBox!</div>
         </div>
         <div class="ball-container">
           <div class="ball ball5"></div>
           <div class="small-ball">
             <div class="number">5</div>
           </div>
-          <div class="caption">v4i t0m4r N0 c#5</div>
+          <div class="caption">Indique amigos</div>
         </div>
       </div>
     </section>
 
-      <div class="container2"> <!-- MENINO NEY -->
-        <div class="quadrado2"></div>
-        <div class="quadrado2"></div>
+    <section id="planos">
+      <div class="container2">
+        <div class="quadrado2">
+          <img class="plans" src="../imagem/99.png" alt="99,90" width="280px">
+          <input class="button button-plan" type="submit" value="Assine">
+        </div>
+        <div class="quadrado2">
+          <img class="plans" src="../imagem/179.png" alt="179,90" width="280px">
+          <input class="button button-plan" type="submit" value="Assine">
+        </div>
       </div>
+    </section>
+
+    <hr>
+
+    <div class="container-table">
+    <table class="hidden-table">
+      <tr>
+        <th class="side-info" rowspan="7">Mais Informações</th>
+        <th class="prod1">MozzaFan</th>
+        <th class="prod2">MozzaFriends</th>
+      </tr>
+      <tr>
+        <td class="menor">2 Peças</td>
+        <td>Look completo</td>
+      </tr>
+      <tr>
+        <td class="menor">Frete por localização</td>
+        <td>Frete grátis</td>
+      </tr>
+      <tr>
+        <td class="menor" style="color: red;">X</td>
+        <td>Desconto nas empresas parceiras</td>
+      </tr>
+      <tr>
+        <td class="menor" style="color: red;">X</td>
+        <td>Brinde</td>
+      </tr>
+      <tr>
+        <td class="exclusividade" colspan="2"><img src="../imagem/Foto-de-Estrela-PNG.png" alt="" width="48px"> Exclusividade <img src="../imagem/Foto-de-Estrela-PNG.png" alt="" width="48px"></td>
+      </tr>
+    </table>
+  </div>
 
     <!-- RODA PEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE -->  
 

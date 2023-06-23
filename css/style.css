@@ -5893,6 +5893,7 @@ fieldset:disabled .btn {
   position: relative;
   width: 85%;
   margin: 0 auto;
+  margin-top: -15px;
 }
 .carousel.pointer-event {
   touch-action: pan-y;
@@ -5900,7 +5901,7 @@ fieldset:disabled .btn {
 .carousel-inner {
 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
-  border-radius: 5%;
+  border-radius: 30px;
   margin-top: 120px;
   position: relative;
   width: 100%;
@@ -11741,10 +11742,10 @@ fieldset:disabled .btn {
 
 .container {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
-  height: 65vh;
+  height: 300px;
 }
 
 .ball-container {
@@ -11753,14 +11754,15 @@ fieldset:disabled .btn {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-right: 80px;
+  margin-top: 200px;
+  margin-right: 50px;
 }
 
 .ball {
   width: 120px;
   height: 120px;
-  margin-top: -10px;
-  margin-left: 15px;
+  margin-top: -290px;
+  margin-left: 20px;
   border-radius: 50%;
   background-size: cover;
   background-position: center;
@@ -11769,8 +11771,8 @@ fieldset:disabled .btn {
 
 .small-ball {
   position: absolute;
-  top: -25px;
-  right: -25px;
+  top: -235px;
+  right: -15px;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -11788,27 +11790,40 @@ fieldset:disabled .btn {
 
 .ball1 {
   background-image: url('../imagem/1.jpg');
+  background-size: 225px;
 }
 
 .ball2 {
   background-image: url('../imagem/2.jpg');
+  background-size: 225px;
 }
 
 .ball3 {
   background-image: url('../imagem/3.jpg');
+  background-size: 225px;
 }
 
 .ball4 {
   background-image: url('../imagem/4.jpg');
+  background-size: 225px;
 }
 
 .ball5 {
   background-image: url('../imagem/5.jpg');
+  background-size: 225px;
+}
+
+.como-funciona {
+  font-family: 'Keep Calm', sans-serif;
+  font-size: 22px;
+  margin-left: 42%;
+  margin-top: 60px;
 }
 
 .caption {
   margin-top: 10px;
   text-align: center;
+  font-family: 'Keep Calm', sans-serif;
 }
 
 /* Ajuste para telas menores */
@@ -11844,25 +11859,56 @@ fieldset:disabled .btn {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px; /* Defina a altura desejada para o contêiner */
+  margin-top: -160px;
+  height: 800px; /* Defina a altura desejada para o contêiner */
 }
 
-.quadrado2 { /* MENINO NEY */
-  margin-top: auto;
-  width: 200px; /* Defina a largura desejada para os quadrados */
-  height: 450px; /* Defina a altura desejada para os quadrados */
-  background-color: #000000; /* Cor de fundo padrão */
-  background-image: url("../imagem/Screenshot_1.png"); /* Caminho para a imagem de fundo */
+.quadrado2 { 
+  margin-top: 5px;
+  width: 360px; /* Defina a largura desejada para os quadrados */
+  height: 630px; /* Defina a altura desejada para os quadrados */
+  background-color: #7a7878; /* Cor de fundo padrão */
+  border-radius: 54px;
   background-size: cover; /* Ajusta a imagem de fundo para cobrir todo o espaço disponível */
   background-position: center; /* Centraliza a imagem de fundo */
 }
 
 .quadrado2:first-child {
-  margin-right: 80px; /* Espaço entre os quadrados */
+  margin-right: 65px; /* Espaço entre os quadrados */
+  background-image: url("../imagem/plan1.png");
+  background-size: cover;
+}
+
+.plans {
+  margin-top: 450px;
+  margin-left: 30px;
+}
+
+.button {
+  background-color: #818485; /* Green */
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 10px 110px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button-plan:hover {
+  background-color: #4e4e4e;
+  color: white;
 }
 
 .quadrado2:last-child {
-  margin-left: 80px; /* Espaço entre os quadrados */
+  margin-left: 65px; /* Espaço entre os quadrados */
+  background-image: url("../imagem/plan2.png");
+  background-size: cover;
 }
 
 .bd-placeholder-img {
@@ -12041,7 +12087,8 @@ fieldset:disabled .btn {
 }
 
 .container3{
-  margin-top: 500px;
+  margin-top: 400px;
+  background-color: #000000;
 }
 /* POP UP */
 
@@ -12098,4 +12145,58 @@ th {
 
 .center {
   text-align: center;
+}
+
+/* tabela */
+
+.container-table {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.hidden-table {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 2px;
+  font-family: 'Keep Calm', sans-serif;
+  width: auto;
+}
+
+.menor {
+  width: 350px;
+}
+
+.exclusividade {
+  font-family: 'Tabarra', sans-serif;
+  font-size: 50px;
+}
+
+.hidden-table th, td {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.hidden-table th, td {
+  padding: 30px;
+  text-align: center;
+}
+
+.hidden-table .prod1 {
+  background-color: rgba(105, 195, 246, 0.19);
+}
+
+.hidden-table .prod2 {
+  background-color: rgba(255, 171, 181, 0.5);
+}
+
+hr {
+  margin-left: 138px;
+  margin-top: -10px;
+  margin-bottom: 50px;
+  border: 2px solid black;
+  width: 80%;
 }
