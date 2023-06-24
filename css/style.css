@@ -234,6 +234,9 @@ h1 {
   font-size: calc(1.375rem + 1.5vw);
 }
 @media (min-width: 1200px) {
+  .about{
+    display: flex;
+  }
   .h1,
   h1 {
     font-size: 2.5rem;
@@ -12009,12 +12012,78 @@ fieldset:disabled .btn {
 .bd-mode-toggle {
   z-index: 1500;
 }
+ /*Tela Pincipal*/
+@media (max-width: 1255px ) {
+  .container{
+    display: flex;
+   flex-wrap: wrap;
+   margin-top: 0px;
+   
+  }
+  .como-funciona{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+  }
+  .container2{
+    display: flex;
+   flex-direction: row;
+   margin-top: 5px;
+
+  }
+}
+.container2 {
+  display: flex;
+}
+.container{
+  display: flex;
+
+}
+.como-funciona{
+  display: flex;
+  justify-content: center;
+}
+.planos{
+  display: flex;
+}
+/* Estilos para telas menores */
+@media screen and (max-width: 400px) {
+  .container{
+   flex-wrap: wrap;
+   margin-top: 0px;
+   
+  }
+  .container2 {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+}
+
+
+/* Estilos para telas maiores */
+@media screen and (max-width: 768px) {
+  .container{
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 300px;
+  
+    justify-content: space-evenly;
+  }
+
+  }
+  .planos img{
+  width: 0px;
+
+  }
+
+
 
 /*Login para 1255px*/
 
 @media (max-width: 1255px ) {
-
-
+  
   .container-login{
   display: flex;
   flex-direction: row;
@@ -12042,7 +12111,23 @@ fieldset:disabled .btn {
 }
 
 @media (max-width: 1178px ) {
-  
+  .container{
+    display: flex;
+   flex-wrap: wrap;
+   margin-top: 50px;
+   
+  }
+  .como-funciona{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+  }
+  .container2{
+    display: flex;
+   flex-direction: row;
+   margin-top: 10px;
+
+  }
   .container-login{
     display: flex;
     flex-direction: row;
@@ -12126,7 +12211,7 @@ fieldset:disabled .btn {
   }
 
   @media (max-width: 980px ) {
-
+   
     .container-login{
       display: flex;
       flex-direction: column;
