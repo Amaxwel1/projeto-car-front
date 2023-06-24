@@ -12434,6 +12434,7 @@ th {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
+  margin-bottom: 150px;
 }
 
 .hidden-table {
@@ -12486,31 +12487,39 @@ hr {
 
 .img1 {
   margin-left: -8px;
+  margin-right: 20px;
 } 
 
+.img-zi {
+  width: 680px;
+}
 
 .container-cadastro{
   display: flex;
+  flex-direction: row;
   justify-content: flex-end;
-  margin-top: -840px;
-  margin-right: 150px;
+  margin-top: -880px;
+  margin-right: 5%;
+  margin-bottom: 40px;
+  margin-left: 10%;
 }
 
 
 .registration-box {  
-  width: 400px;
-  padding: 40px;
+  width: 600px;
+  height: 740px;
+  padding:40px;
   background-color: #f2f2f2;
   text-align: center;
   overflow: hidden;
- margin-top: 100px;
+  margin-top: 100px;
   margin-left: 580px;
 
 
 }
 
 .registration-box h2 {
-  margin-bottom: 20px;
+  margin-bottom: 12px;
 }
 
 
@@ -12533,24 +12542,46 @@ margin-bottom: 10px;
   text-align: left;
 }
 
+
 .input-group label {
   display: block;
   margin-bottom: 2px;
 }
 
+.birth-cl input {
+   width: 240px;
+}
+.birth-cl label {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.birth-tl{
+  margin-left: 260px;
+  margin-top: -78px;
+}
+.birth-tl input {
+  width: 50%;
+}
+.birth-tl label {
+ width: 100%;
+ margin-bottom: 5px;
+}
 
 .rodape1{
- margin-left: -8px;
+  margin-left: -8px;
   background-color: #f2f2f2;
-  margin-top: 200px;
   margin-right: -10px;
-  margin-bottom: -10px;
+  margin-bottom: -200px;
+  padding: 15px;
 }
 
 .rodape1 h5{
-  margin-left: 15px;
   margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 30px;
 }
+
 .rodape1 li {
   margin-left: 30px;
 }
