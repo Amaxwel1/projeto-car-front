@@ -12076,8 +12076,8 @@ fieldset:disabled .btn {
 }
 
 .container-footer {
-  margin-top: -4px;
-  background-color: #7a7a7a;
+  margin-top: 4px;
+  background-color: #fff;
   padding: 20px;
 }
 

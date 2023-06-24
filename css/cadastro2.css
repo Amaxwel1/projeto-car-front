@@ -635,7 +635,7 @@ progress {
   margin-top: -1rem;
   margin-bottom: 1rem;
   font-size: 0.875em;
-  color: #6c757d;
+  color: #0a4f83;
 }
 .blockquote-footer::before {
   content: "— ";
@@ -11955,16 +11955,23 @@ fieldset:disabled .btn {
 }
 
 
+/*.container-cadastro{
+display: flex;
+}*/
 .container-login{
   display: flex;
   flex-direction: row;
   align-items: center;
   align-content: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .left-side {
   margin-left: -8px;
+}
+.logo1{
+  display: flex;
+  margin-left: -10px;
 }
 
 .login-box {
@@ -12061,36 +12068,39 @@ fieldset:disabled .btn {
   font-size: 20px;
 }
 
-.container {
-
-}
-
 .container-img{
   margin-left: -10px;
 }
 
-.registration-box {
+.registration-box {  
   width: 400px;
   padding: 40px;
   background-color: #f2f2f2;
   text-align: center;
   overflow: hidden;
-  margin-bottom: -50px;
-  margin-left: 100px;
+ margin-top: 100px;
+  margin-left: 580px;
+
+
 }
 
 .registration-box h2 {
   margin-bottom: 20px;
 }
 
+.input-group1{
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
 .input-group {
-  margin-bottom: 10px;
+  margin-bottom: 2px;
   text-align: left;
 }
 
 .input-group label {
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 2px;
 }
 
 .left-side {
@@ -12112,11 +12122,16 @@ fieldset:disabled .btn {
   text-decoration: none;
 }
 
-.footer {
-  background-color: #4d4d4d;
+.rodape1{
+  background-color: #fff;
+  margin-top: 200px;
+}
+
+/*.footer {
+  background-color: #000;
   text-align: center;
   padding: 10px;
   position: sticky;
   bottom: 0;
   width: 100%;
-}
+}*/

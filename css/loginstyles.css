@@ -54,7 +54,7 @@ body {
 .input-group input {
   width: 100%;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #dddbdb;
   border-radius: 4px;
 }
 
@@ -95,9 +95,15 @@ body {
   color: #fff;
 }
 
-.footer {
-  background-color: #fff;
+.rodape1{
+  background-color: #923030;
+  margin-top: 200px;
+
+}
+
+/*.footer {
+  background-color: #832727;
   text-align: center;
   padding: 10px;
   margin-top: 10px;
-}
+}*/
