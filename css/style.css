@@ -11987,7 +11987,8 @@ fieldset:disabled .btn {
 
 @media (max-width: 1255px ) {
 
-.container-login{
+
+  .container-login{
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -12015,6 +12016,7 @@ fieldset:disabled .btn {
 
 @media (max-width: 1178px ) {
 
+  
   .container-login{
     display: flex;
     flex-direction: row;
@@ -12350,16 +12352,27 @@ fieldset:disabled .btn {
   margin-top: 4px;
   background-color: #fff;
   padding: 20px;
+  
 }
 
 .icon-face {
   border-radius: 15%;
 }
-
-.container3{
-  margin-top: 400px;
-  background-color: #000000;
-}
+.rodape1{
+  margin-left: -8px;
+   background-color: #f2f2f2;
+   margin-top: 200px;
+   margin-right: -10px;
+   margin-bottom: -10px;
+ }
+ 
+ .rodape1 h5{
+   margin-left: 15px;
+   margin-top: 15px;
+ }
+ .rodape1 li {
+   margin-left: 30px;
+ }
 /* POP UP */
 
 .popup {
@@ -12470,3 +12483,77 @@ hr {
   border: 2px solid black;
   width: 80%;
 }
+
+/*Tela Cadastro*/
+
+.img1 {
+  margin-left: -8px;
+} 
+
+
+.container-cadastro{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -840px;
+  margin-right: 150px;
+}
+
+
+.registration-box {  
+  width: 400px;
+  padding: 40px;
+  background-color: #f2f2f2;
+  text-align: center;
+  overflow: hidden;
+ margin-top: 100px;
+  margin-left: 580px;
+
+
+}
+
+.registration-box h2 {
+  margin-bottom: 20px;
+}
+
+
+.registration-box p {
+  margin-top: 20px;
+}
+
+.registration-box a {
+  text-decoration: none;
+}
+
+
+.input-group1{
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.input-group {
+  margin-bottom: 2px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 2px;
+}
+
+
+.rodape1{
+ margin-left: -8px;
+  background-color: #f2f2f2;
+  margin-top: 200px;
+  margin-right: -10px;
+  margin-bottom: -10px;
+}
+
+.rodape1 h5{
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.rodape1 li {
+  margin-left: 30px;
+}
+
